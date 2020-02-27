@@ -13,12 +13,12 @@
 			
 			<form:form action="${pageContext.request.contextPath}/save" modelAttribute="employee" method="Post">
 		
-				Firstname: <br />
+				First name: <br />
 				<form:input type="text" path="firstName" />
 				
 				<br /><br />
 				
-				Lastname: <br />
+				Last name: <br />
 				<form:input type="text" path="lastName" />
 				
 				
